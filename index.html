@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Ahmad — Developer &amp; Growth Marketer</title>
+  <meta name="description" content="Portfolio of Muhammad Ahmad — Python developer and SEO / growth marketer. Freelance projects, certifications, and skills." />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+
+  <!-- Fonts: Space Grotesk (headings), Inter (body), IBM Plex Mono (code/labels) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- =================== MOBILE TOP BAR (shows under 960px) =================== -->
+  <header class="topbar">
+    <span class="brand">ahmad.dev</span>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open menu"></button>
+  </header>
+
+  <nav class="mobile-nav" id="mobile-nav">
+    <button class="mobile-close" id="mobile-close" aria-label="Close menu">✕</button>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- =================== DESKTOP LEFT RAIL NAV =================== -->
+  <aside class="rail">
+    <div class="rail-path">~/ahmad-portfolio</div>
+    <ul class="rail-nav">
+      <li><a href="#home"><span class="num">01</span> home</a></li>
+      <li><a href="#about"><span class="num">02</span> about</a></li>
+      <li><a href="#work"><span class="num">03</span> work</a></li>
+      <li><a href="#skills"><span class="num">04</span> skills</a></li>
+      <li><a href="#certifications"><span class="num">05</span> certifications</a></li>
+      <li><a href="#contact"><span class="num">06</span> contact</a></li>
+    </ul>
+    <div class="rail-footer">
+      <!-- EDIT ME: swap in your resume file path -->
+      <a href="assets/Ahmad - Resume.pdf" download>↓ download resume</a>
+    </div>
+  </aside>
+
+  <main>
+
+    <!-- =================== HERO =================== -->
+    <section id="home">
+      <div class="reveal in">
+        <span class="eyebrow">available for freelance &amp; full-time roles</span>
+        <h1 class="hero-name">Muhammad Ahmad</h1>
+        <p class="hero-role">I'm a <span id="hero-role-text"></span><span class="cursor">|</span></p>
+        <p class="hero-lede">
+          I build software and marketing systems that actually move numbers —
+          Python-driven tools on one side, search-engine growth strategy on the other.
+        </p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">View my work</a>
+          <a href="assets/Ahmad - Resume.pdf" class="btn btn-ghost" download>Download résumé</a>
+        </div>
+      </div>
+
+      <div class="hero-terminal reveal in">
+        <div class="term-bar">
+          <span class="term-dot r"></span>
+          <span class="term-dot y"></span>
+          <span class="term-dot g"></span>
+        </div>
+        <div class="term-body">
+          <p><span class="prompt">$</span> who am i</p>
+          <p>Muhammad Ahmad — Lahore, Pakistan</p>
+          <p><span class="prompt">$</span> profile --summary</p>
+          <p><span class="ok">✓</span> Computer Science Graduate</p>
+          <p><span class="ok">✓</span> Python &amp; AI-powered systems</p>
+          <p><span class="ok">✓</span> SEO &amp; organic growth strategy</p>
+          <p><span class="ok">✓</span> Freelance delivery, start to finish</p>
+          <p class="muted"># scroll to see the full build log ↓</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== ABOUT =================== -->
+    <section id="about" class="tint-blue">
+      <div class="about-text reveal">
+        <span class="eyebrow">02 / about</span>
+        <h2>A developer's logic, a marketer's instinct.</h2>
+        <p>
+          I'm a Computer Science graduate who's just as comfortable inside a codebase
+          as I am inside a search console. On the development side, I build automation
+          tools, web apps, and AI-powered systems with Python. On the marketing side,
+          I help businesses grow their organic visibility — keyword strategy, technical
+          fixes, content, the full SEO stack.
+        </p>
+        <p>
+          I work freelance across both, which means I don't just build the thing —
+          I also know how to get it found. Outside of work, you'll usually find me
+          on a cricket pitch, occasionally swinging a badminton racket, or at the gym
+          keeping the rest of this balanced.
+        </p>
+        <a href="#contact" class="btn btn-coral">Let's talk</a>
+      </div>
+
+      <div class="fact-card reveal">
+        <ul>
+          <li>Computer Science Graduate</li>
+          <li>Python &amp; AI Systems</li>
+          <li>Technical &amp; On-page SEO</li>
+          <li>Freelance — Fiverr &amp; Adsy</li>
+          <li>Based in Lahore, Pakistan</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- =================== WORK =================== -->
+    <section id="work">
+      <div class="section-head reveal">
+        <span class="eyebrow">03 / work</span>
+        <h2>Recent work, logged like commits</h2>
+        <p>A few projects that show both sides of what I do.</p>
+      </div>
+
+      <article class="commit-card reveal">
+        <div class="commit-meta">
+          <span class="commit-hash">#a1f9c3</span>
+          <span class="branch-tag">feature/ai-vision-system</span>
+        </div>
+        <h3>NCAI Internship Program | April - June 2026</h3>
+        <p>
+          Improved skills in data preprocessing, feature engineering, model evaluation,
+          AI project development, NLP, Open CV through practical assignments.
+          Ai Health Insurance Cold Calling, Disease Prediction, Image Classification, Spam Email Detection,
+           worked through deploying these models in practice.
+        </p>
+        <div class="commit-stats">
+          <span class="stat-add">4 model types implemented</span>
+        </div>
+        <div class="tag-row">
+          <span>Python</span><span>Deep Learning</span><span>Machine Learning</span><span>Sentiment Analysis</span>
+        </div>
+      </article>
+
+      <article class="commit-card reveal">
+        <div class="commit-meta">
+          <span class="commit-hash">#a1f9c3</span>
+          <span class="branch-tag">feature/ai-vision-system</span>
+        </div>
+        <h3>HCCDA AI — Huawei Cloud Developer Program | 3 Month - 2025</h3>
+        <p>
+          Applied machine learning and deep learning to real classification problems —
+          OCR, object detection, sound classification, text classification, and image
+          recognition — then worked through deploying those models in practice.
+        </p>
+        <div class="commit-stats">
+          <span class="stat-add">5 model types implemented</span>
+        </div>
+        <div class="tag-row">
+          <span>Python</span><span>Deep Learning</span><span>OCR</span><span>Huawei Cloud</span>
+        </div>
+      </article>
+
+      <article class="commit-card coral reveal">
+        <div class="commit-meta">
+          <span class="commit-hash">#7e22b0</span>
+          <span class="branch-tag">feature/seo-growth-campaign</span>
+        </div>
+        <h3>SEO Marketing at Graphic View | 2022 - 2024</h3>
+        <p>
+          On Page & Off Page, the organic search strategy for a eCommerce store targeting
+          the USA, UK market — aiming for stronger keyword rankings, more organic
+          traffic, and a faster, lower-bounce site experience.
+        </p>
+        <div class="commit-stats">
+          <span class="stat-add">40% organic traffic target</span>
+          <span class="stat-add">Top 3 rankings for 10 keywords</span>
+        </div>
+        <div class="tag-row">
+          <span>Ahrefs</span><span>SEMrush</span><span>Search Console</span><span>Google Merchant</span><span>WordPress</span>
+        </div>
+      </article>
+
+      <article class="commit-card reveal">
+        <div class="commit-meta">
+          <span class="commit-hash">#4d61aa</span>
+          <span class="branch-tag">feature/freelance-delivery</span>
+        </div>
+        <h3>SEO Marketing at Click Software Solution | 2024 - 2025  </h3>
+        <p>
+          Ongoing client-based work: SEO-optimized articles written for backlink
+          campaigns, plus design deliverables — flyers, brochures, résumés,
+          presentations, and custom AI prompt design.
+        </p>
+        <div class="tag-row">
+          <span>Content Writing</span><span>Canva</span><span>Prompt Design</span><span>Presentations</span>
+        </div>
+      </article>
+      <article class="commit-card reveal">
+        <div class="commit-meta">
+          <span class="commit-hash">#4d61aa</span>
+          <span class="branch-tag">feature/freelance-delivery</span>
+        </div>
+        <h3>SEO Marketing at M/S Techverse Ent | 2025 - 2026 </h3>
+        <p>
+          Experienced in SEO marketing with a strong understanding of on-page and off-page. Skilled in keyword research, content optimization, and improving website rankings to increase
+          organic traffic and online visibility.
+        </p>
+        <!-- <div class="tag-row">
+          <span>Content Writing</span><span>Canva</span><span>Prompt Design</span><span>Presentations</span>
+        </div> -->
+      </article>
+    </section>
+
+    <!-- =================== SKILLS =================== -->
+    <section id="skills" class="tint-coral">
+      <div class="section-head reveal">
+        <span class="eyebrow">04 / skills</span>
+        <h2>Tools of the trade</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-col reveal">
+          <h3>Development</h3>
+          <div class="pill-row">
+            <span>HTML</span><span>CSS</span><span>Python</span><span>Django</span><span>Huawei Cloud</span><span>AI / Prompt Engineering</span>
+          </div>
+        </div>
+        <div class="skill-col reveal">
+          <h3>Marketing</h3>
+          <div class="pill-row">
+            <span>SEO (On/Off-page, Technical)</span><span>Keyword Research</span><span>Content Strategy</span><span>Content Writing</span><span>Google Analytics</span><span>Google Ads</span><span>Social Media Marketing</span><span>GMB</span><span>Market Research</span>
+          </div>
+        </div>
+        <div class="skill-col reveal">
+          <h3>Tools &amp; Platforms</h3>
+          <div class="pill-row">
+            <span>VS Code</span><span>Anaconda</span><span>Adobe Creative Suite</span><span>SEMrush</span><span>Ahrefs</span><span>Search Console</span><span>Meta Ads</span><span>WordPress</span><span>Canva</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== CERTIFICATIONS =================== -->
+    <section id="certifications" class="tint-blue">
+      <div class="section-head reveal">
+        <span class="eyebrow">05 / certifications</span>
+        <h2>Certifications</h2>
+      </div>
+
+      <!-- EDIT ME: each card below points to a separate blank placeholder.
+           Replace the src on each <img> with your real certificate image
+           (a screenshot or scan works fine) and delete class="placeholder-icon"
+           so the image fills the frame instead of showing the small icon.
+           Keep filenames distinct per card so swapping one doesn't affect the rest. -->
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <div class="cert-image placeholder-img"><img class="placeholder-icon" src="images/NCAi.jpeg" alt="Artificial Intelligence" /></div>
+          <div class="cert-info"><h4>Artificial Intelligence</h4><span>Issued by NCAI</span></div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-image placeholder-img"><img class="placeholder-icon" src="images/B of PE.png" alt="Prompt Engineering certificate" /></div>
+          <div class="cert-info"><h4>Prompt Engineering</h4><span>Issued by Alison</span></div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-image placeholder-img"><img class="placeholder-icon" src="images/hccda.png" alt="Huawei Cloud Developer HCCDA AI certificate" /></div>
+          <div class="cert-info"><h4>Huawei Cloud Developer: HCCDA AI</h4><span>Issued by Huawei</span></div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-image placeholder-img"><img class="placeholder-icon" src="images/python-programming.PNG" alt="Python Programming certificate" /></div>
+          <div class="cert-info"><h4>Python Programming</h4><span>Professional Freelance Training Program</span></div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-image placeholder-img"><img class="placeholder-icon" src="images/cybersecure.PNG" alt="Basics of Cyber Security certificate" /></div>
+          <div class="cert-info"><h4>Basics of Cyber Security</h4><span>Issued by Cisco</span></div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-image placeholder-img"><img class="placeholder-icon" src="images/SMM.PNG" alt="Full Stack Digital and SMM Marketing certificate" /></div>
+          <div class="cert-info"><h4>Full Stack Digital &amp; SMM Marketing</h4><span>Issued by NITSEP</span></div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-image placeholder-img"><img class="placeholder-icon" src="images/Freelance.PNG" alt="Freelance certificate" /></div>
+          <div class="cert-info"><h4>Freelance</h4><span>Issued by DigiSkills</span></div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-image placeholder-img"><img class="placeholder-icon" src="images/Ecomm.PNG" alt="E-commerce certificate" /></div>
+          <div class="cert-info"><h4>E-commerce</h4><span>Issued by DigiSkills</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== CONTACT =================== -->
+    <section id="contact">
+      <div class="reveal">
+        <span class="eyebrow coral">06 / contact</span>
+        <h2>Let's build something.</h2>
+        <p>Have a project in mind, or just want to talk shop? I read every message.</p>
+
+        <ul class="contact-list">
+          <li>
+            <span class="label">email</span>
+            <a href="mailto:connectahmad2002@gmail.com">connectahmad2002@gmail.com</a>
+          </li>
+          <li>
+            <span class="label">linkedin</span>
+            <a href="https://www.linkedin.com/in/ahmad-qayyum-296469239" target="_blank" rel="noopener">linkedin.com/in/ahmad-qayyum</a>
+          </li>
+          <li>
+            <!-- EDIT ME: add your real GitHub URL, or delete this <li> if you don't want it listed -->
+            <span class="label">github</span>
+            <a href="https://github.com/ahmad123-cloud" target="_blank" rel="noopener">https://github.com/ahmad123-cloud</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact-note reveal">
+        <p><span class="ok">#</span> Get In Touch</p>
+        <p>
+          
+
+I'm always interested in discussing new projects, AI innovations, internships, and collaboration
+ opportunities. Whether you have a question or just want to connect, feel free to reach out 
+ via email or through my professional profiles.
+
+I look forward to hearing from you!
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>© <span id="year">2026</span> Muhammad Ahmad. Built from scratch, no framework.</span>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/ahmad-qayyum-296469239" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:connectahmad2002@gmail.com">Email</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
